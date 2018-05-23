@@ -1,0 +1,19 @@
+PixeLens is a modelling program for strong gravitational lenses.
+
+It is free software under the GNU GPL. See COPYING for license details.
+
+Developed by Prasenjit Saha (mostly 2001-2007)
+and Jonathan Coles (2005-2007)
+
+
+To build from source
+====================
+
+1. Make sure the javatangle preprocessor (part of Rambutan) is installed.
+
+2. Set the PUB directory in makefile.common
+
+3. Run the following make command
+
+   make -sf makefile.PixeLens
+
