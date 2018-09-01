@@ -107,7 +107,7 @@ making contour plots (|Z,ZB,Q|, |mass_grid|, |lnr|, |poten_grid|).
           if (r > rmax) rmax = r;
         }
       if (rmax+rmin < rad) rad = rmax+rmin;
-      if (2*rmax-rmin < rad) rad = 2*rmax-rmin;
+      // if (2*rmax-rmin < rad) rad = 2*rmax-rmin;
       if (a < rad) a = rad;
     }
   a = (L+1)*a/(L*L);

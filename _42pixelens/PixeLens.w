@@ -26,7 +26,7 @@
   String[] args; String fin=null,fout=null; int threads=8;
   static boolean quiet = false;
   static String PixeLensName = "PixeLens";
-  static String PixeLensVersion = "2.18";
+  static String PixeLensVersion = "2.20";
   static boolean useNative = false;
 
 @ @<Layout for the |PixeLens| GUI@>=
